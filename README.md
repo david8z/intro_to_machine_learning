@@ -9,6 +9,11 @@ The python version used for the course was the recommended by Udacity, _python2.
 pip install -r requirements.txt
 ```
 
+I actually experienced a runtime error with the matplotlib library as i was working in MAC OSX indicating python wasn't installed as a framework. This was solved with the following command:
+```bash
+echo "backend: TkAgg" >> ~/.matplotlib/matplotlibrc 
+```
+
 ---
 
 Note that you can't use this repo directly as the dataset isn't downloaded on it.  
