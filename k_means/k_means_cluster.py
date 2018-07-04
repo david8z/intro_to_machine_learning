@@ -81,6 +81,8 @@ print "Max salary: ", auxSalaryMax
 print "Min stock: ", auxStockMin
 print "Max stock: ", auxStockMax
 
+print "200,000$ scaled value: ", float(200000-auxSalaryMin)/float(auxSalaryMax-auxSalaryMin) 
+print "1,000,000$ scaled value: ", float(1000000-auxStockMin)/float(auxStockMax-auxStockMin) 
 for f1, f2, _ in finance_features:
     plt.scatter( f1, f2 )
 plt.show()

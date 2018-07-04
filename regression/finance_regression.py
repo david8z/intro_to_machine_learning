@@ -46,6 +46,7 @@ print "Slope: ", reg.coef_
 print "Intercept: ",reg.intercept_
 print "R-2 score on training data: ", reg.score(feature_train, target_train)
 print "R-2 score on test data: ", reg.score(feature_test, target_test)
+print feature_test, target_test
 
 
 
